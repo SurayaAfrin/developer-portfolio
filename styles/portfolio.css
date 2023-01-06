@@ -62,7 +62,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 0px 200px;
+    padding: 50px 200px;
 }
 
 .nav-title {
@@ -189,7 +189,7 @@ main {
     margin-right: 100px;
 }
 
-.resume-item{
+.resume-item {
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -225,7 +225,51 @@ main {
     margin-bottom: 30px;
 }
 
-.resume-btn{
+.resume-btn {
     margin-top: 50px;
     text-align: center;
+}
+
+/* contact styles */
+.contact {
+    display: flex;
+    justify-content: space-around;
+    gap: 120px;
+    background: #FFF8F3;
+    padding: 130px 130px;
+}
+
+.contact .section-title {
+    text-align: left;
+}
+
+.contact p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    border: 0;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input {
+    height: 64px;
+}
+
+textarea {
+    height: 180px;
 }
